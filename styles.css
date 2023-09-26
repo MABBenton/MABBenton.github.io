@@ -1,4 +1,7 @@
-#header {
-  background-image: url('images/mab_photo.jpg');
+.header {
+  background-image: url('images/canyon-photo.jpg');
+  background-position: 50% 70%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
 }
