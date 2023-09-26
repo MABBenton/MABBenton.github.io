@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .header {
   background-image: url('images/canyon-photo.jpg');
   background-position: 50% 70%;
