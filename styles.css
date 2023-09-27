@@ -1,3 +1,8 @@
+#sectionHeader {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  border-radius: 0 40px 40px 0;
+}
 
 .header {
   background-image: url('images/canyon-photo.jpg');
