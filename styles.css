@@ -4,6 +4,10 @@
   border-radius: 0 40px 40px 0;
 }
 
+#aboutMe {
+  border-color: rgb(253, 227, 111);
+}
+
 .header {
   background-image: url('images/canyon-photo.jpg');
   background-position: 50% 70%;
