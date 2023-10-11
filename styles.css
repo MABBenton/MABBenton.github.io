@@ -1,3 +1,4 @@
+/* id selectors */
 
 #sectionHeader {
   writing-mode: vertical-lr;
@@ -8,6 +9,8 @@
   margin: 0;
   padding: 1rem;
 }
+
+/* class selectors */
 
 .header {
   background-image: url('images/canyon-photo.jpg');
