@@ -10,8 +10,8 @@ const cardBounce = [
 ]
 
 const cardTiming = {
-  duration: 1500,
-  iterations: 2
+  duration: 1100,
+  iterations: 1
 }
 
 
