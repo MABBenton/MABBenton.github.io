@@ -24,7 +24,7 @@ h2 {
 
 #work {
   margin-top: 8rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 /* class selectors */
@@ -41,8 +41,8 @@ h2 {
   padding: 3rem 1.5rem 5rem;
 }
 
-.row div {
-  margin-bottom: 3rem;
+.project {
+  margin-bottom: 6rem;
 }
 
 .card {
