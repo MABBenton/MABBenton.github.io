@@ -1,3 +1,8 @@
+/* element selectors */
+h1 {
+  padding: 3rem 0 4rem;
+}
+
 h2 {
   flex-basis: 50%;
 }
