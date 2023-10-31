@@ -55,6 +55,12 @@ h2 {
 }
 
 /* media queries */
+@media (min-width: 321px) {
+  .navFlex {
+    justify-content: space-between!important;
+  }
+}
+
 @media (min-width: 576px) {
   h2 {
     flex-wrap: nowrap!important;
