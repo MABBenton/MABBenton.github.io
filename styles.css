@@ -1,6 +1,7 @@
 /* element selectors */
 h1 {
-  padding: 3rem 0 4rem;
+  font-size: 2rem;
+  padding: 2rem 0 2.5rem;
 }
 
 h2 {
@@ -38,7 +39,11 @@ h2 {
   background-color: rgba(253, 227, 111, 0.8);
   text-align: center;
   margin-top: 3rem;
-  padding: 3rem 1.5rem 5rem;
+  padding: 3rem 1.5rem 3rem;
+}
+
+.lead {
+  font-size: 1rem;
 }
 
 .project {
@@ -62,7 +67,20 @@ h2 {
 }
 
 @media (min-width: 576px) {
+  h1 {
+    font-size: 5rem;
+    padding: 3rem 0 4rem;
+  }
+
   h2 {
     flex-wrap: nowrap!important;
+  }
+
+  .header {
+    padding-bottom: 5rem;
+  }
+
+  .lead {
+    font-size: 1.5rem;
   }
 }
