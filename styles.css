@@ -28,6 +28,10 @@ h2 {
   margin-bottom: 3rem;
 }
 
+#about {
+  margin: 3rem 0;
+}
+
 /* class selectors */
 
 .header {
@@ -61,6 +65,22 @@ h2 {
 
 .card-header {
   background-color: rgb(145, 246, 246);
+}
+
+.aboutText {
+  font-size: .9rem;
+  border-left: solid 2px rgb(145, 246, 246);
+}
+
+.resume {
+  color: rgb(108, 117, 125);
+  text-decoration: none;
+  line-height: 3.5;
+}
+
+.resume:hover {
+  color: rgb(145, 246, 246);
+  text-decoration: underline;
 }
 
 /* media queries */
@@ -101,6 +121,14 @@ h2 {
   }
 
   .card-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #about {
+    margin: 5rem 0;
+  }
+
+  .aboutText {
+    font-size: 1.2rem;
   }
 }
