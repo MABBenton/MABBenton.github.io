@@ -32,6 +32,11 @@ h2 {
   margin: 3rem 0;
 }
 
+#contact {
+  margin: 4rem 0;
+  padding: 0;
+}
+
 /* class selectors */
 
 .header {
@@ -83,6 +88,10 @@ h2 {
   text-decoration: underline;
 }
 
+.contactInfo {
+  margin-bottom: 2rem;
+}
+
 /* media queries */
 @media (min-width: 321px) {
   .navFlex {
@@ -130,5 +139,13 @@ h2 {
 
   .aboutText {
     font-size: 1.2rem;
+  }
+
+  #contact {
+    margin: 6rem 0;
+  }
+
+  .contactInfo {
+    margin-bottom: 2.8rem;
   }
 }
