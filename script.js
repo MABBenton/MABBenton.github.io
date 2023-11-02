@@ -7,12 +7,12 @@ const cardBounce = [
   {transform: "translate(0, -2rem)"},
   {transform: "translate(0, .9rem)"},
   {transform: "translate(0, 0)"}    
-]
+];
 
 const cardTiming = {
   duration: 1100,
   iterations: 1
-}
+};
 
 
 for (let card of cards) {
@@ -20,4 +20,3 @@ for (let card of cards) {
         card.animate(cardBounce, cardTiming);
       });
 }
-

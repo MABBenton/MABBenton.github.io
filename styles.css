@@ -73,6 +73,14 @@ h2 {
   background-color: rgb(145, 246, 246);
 }
 
+.card-body {
+  padding: 0 0 1.9rem 0;
+}
+
+.card-text {
+  margin: .6rem 1.5rem 0 1.5rem;
+}
+
 .aboutText {
   font-size: .9rem;
   border-left: solid 2px rgb(145, 246, 246);
