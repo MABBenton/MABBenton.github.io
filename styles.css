@@ -24,8 +24,9 @@ h2 {
 }
 
 #work {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
+  padding: 0;
 }
 
 #about {
@@ -118,7 +119,7 @@ h2 {
   }
 
   #work {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .lead {
