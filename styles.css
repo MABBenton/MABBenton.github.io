@@ -1,4 +1,12 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
 /* element selectors */
+/*body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}*/
+
 h1 {
   font-size: 2rem;
   padding: 2rem 0 2.5rem;
