@@ -88,13 +88,14 @@ small {
   margin: auto;
 }
 
+.card-body {
+  padding: 0 0 1.9rem 0;
+}
+
 .card-header {
   background-color: rgb(145, 246, 246);
   font-weight: 300;
-}
-
-.card-body {
-  padding: 0 0 1.9rem 0;
+  font-size: 1.1rem;
 }
 
 .card-text {
@@ -167,6 +168,10 @@ small {
 
   .project {
     margin-bottom: 6rem;
+  }
+
+  .card-header {
+    font-size: 1.5rem
   }
 
   .card-text {
