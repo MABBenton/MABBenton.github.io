@@ -105,6 +105,7 @@ small {
 
 .aboutText {
   font-size: .9rem;
+  font-weight: 200;
   border-left: solid 2px rgb(145, 246, 246);
 }
 
