@@ -13,6 +13,12 @@ h1 {
 
 h2 {
   flex-basis: 50%;
+  font-size: 1.2rem!important;
+}
+
+small {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /* id selectors */
@@ -61,6 +67,7 @@ h2 {
 
 .lead {
   font-size: 1rem;
+  font-weight: 200;
 }
 
 .card-text {
@@ -128,6 +135,11 @@ h2 {
 
   h2 {
     flex-wrap: nowrap!important;
+    font-size: 1.3rem!important;
+  }
+
+  small{
+    font-size: 1.1rem;
   }
 
   .sectionHeader {
