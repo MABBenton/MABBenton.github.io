@@ -1,14 +1,17 @@
+/* element selectors */
 body {
   font-family: 'Poppins', sans-serif;
 }
-/* element selectors */
-/*body {
-  font-family: 'Montserrat', sans-serif;
-}*/
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
+  font-weight: 300;
   padding: 2rem 0 2.5rem;
+}
+
+h1 span {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 h2 {
@@ -72,7 +75,7 @@ small {
 
 .lead {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .card-text {
@@ -130,6 +133,10 @@ small {
   font-weight: 300;
 }
 
+.footerLogo {
+  color: rgb(100, 246, 246);
+}
+
 /* media queries */
 @media (min-width: 321px) {
   .navFlex {
@@ -139,8 +146,12 @@ small {
 
 @media (min-width: 576px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4.6rem;
     padding: 3rem 0 4rem;
+  }
+
+  h1 span {
+    font-size: 5rem;
   }
 
   h2 {
