@@ -106,6 +106,10 @@ small {
   font-weight: 200;
 }
 
+.skillsImage {
+  max-width: 25%;
+}
+
 .aboutText {
   font-size: .9rem;
   font-weight: 200;
