@@ -4,14 +4,9 @@ body {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 300;
   padding: 2rem 0 2.5rem;
-}
-
-h1 span {
-  font-size: 2rem;
-  font-weight: 500;
 }
 
 h2 {
