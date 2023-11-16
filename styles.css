@@ -127,9 +127,26 @@ small {
   line-height: 3.5;
 }
 
-.resume:hover {
+.resume:hover,
+.arrow:hover {
   color: rgb(145, 246, 246);
   text-decoration: underline;
+}
+
+.arrow {
+  border: solid rgb(108, 117, 125);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-45deg);
+}
+
+.horizontalLine {
+  border-left: solid 2px rgb(108, 117, 125);
+  transform: rotate(90deg);
+  padding-bottom: 15px;
+  margin-left: 1.5rem;
+  display:inline-block;
 }
 
 .contactInfo {
