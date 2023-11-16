@@ -35,12 +35,12 @@ small {
 
 #work {
   margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 0;
 }
 
 #about {
-  margin: 3rem 0;
+  margin: 3.5rem 0;
 }
 
 #contact {
@@ -106,8 +106,18 @@ small {
   font-weight: 200;
 }
 
+.skillsSection {
+  padding: 0;
+  margin-bottom: 4rem;
+}
+
+.skillsFigure {
+  margin: 0;
+}
+
 .skillsImage {
-  max-width: 25%;
+  max-width: 15%;
+  padding: 0 .3rem;
 }
 
 .aboutText {
@@ -194,6 +204,14 @@ small {
 
   .card-text {
     font-size: 1.1rem;
+  }
+
+  .skillsSection {
+    margin-bottom: 6rem;
+  }
+
+  .skillsImage{
+    width: 12%;
   }
 
   #about {
