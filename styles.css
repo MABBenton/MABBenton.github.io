@@ -116,8 +116,8 @@ small {
 }
 
 .skillsImage {
-  max-width: 15%;
-  padding: 0 .3rem;
+  max-width: 17%;
+  padding: 0;
 }
 
 .aboutText {
@@ -211,7 +211,7 @@ small {
   }
 
   .skillsImage{
-    width: 12%;
+    max-width: 12%;
   }
 
   #about {
