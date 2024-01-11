@@ -111,9 +111,9 @@ small {
 }
 
 .skillsImage {
-  max-width: 17%;
+  max-width: 19%;
   padding: 0;
-  margin: 0 .5rem;
+  margin: .3rem .4rem 0;
 }
 
 .aboutText {
@@ -165,6 +165,7 @@ small {
 }
 
 /* media queries */
+
 @media (min-width: 321px) {
   .navFlex {
     justify-content: space-between!important;
@@ -224,7 +225,7 @@ small {
   }
 
   .skillsImage{
-    max-width: 11%;
+    max-width: 11%;  
   }
 
   #about {
