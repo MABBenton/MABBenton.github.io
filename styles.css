@@ -24,9 +24,6 @@ small {
 }
 
 /* id selectors */
-#navbar {
-  background-color: rgb(145, 246, 246);
-}
 
 #work {
   margin-top: 4rem;
@@ -44,6 +41,13 @@ small {
 }
 
 /* class selectors */
+.navbar {
+  background-color: rgb(145, 246, 246);
+}
+
+.nav-item:hover {
+  color: rgb(183, 183, 183);
+}
 
 .sectionHeader {
   font-weight: 400;
