@@ -1,281 +1,281 @@
 /****************************************************
    General 
  ****************************************************/
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: 300;
-  padding: 2rem 0 2.5rem;
-}
-
-h2 {
-  flex-basis: 50%;
-  font-size: 1.2rem!important;
-}
-
-h3 {
-  font-weight: 400!important;
-}
-
-small {
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.sectionTab {
-    font-weight: 400;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    color: white;
-    border-radius: 0 10px 10px 0;
-    background-color: rgb(183, 183, 183);
-    margin: 0;
-    padding: 1rem .5rem;
+ body {
+    font-family: 'Poppins', sans-serif;
   }
-
-/****************************************************
-   Navigation Bar 
- ****************************************************/
-#work {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  padding: 0;
-}
-
-#about {
-  margin: 3.5rem 0;
-}
-
-#contact {
-  margin: 4rem 0;
-  padding: 0;
-}
-
-.navbar {
-  background-color: rgb(145, 246, 246);
-}
-
-.nav-item:hover {
-  color: rgb(183, 183, 183);
-}
-
-/****************************************************
-   Header Block 
- ****************************************************/
-
-.header {
-  background-image: url('images/canyon-photo.jpg');
-  background-position: 50% 70%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: lighten;
-  background-color: rgba(253, 227, 111, 0.8);
-  text-align: center;
-  margin-top: 3rem;
-  padding: 3rem 1.5rem 3rem;
-}
-
-.headerP {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-/****************************************************
-   Work & Skills Section 
- ****************************************************/
-
-.project {
-  margin-bottom: 3rem;
-}
-
-.card {
-  width: 80%;
-  margin: auto;
-}
-
-.card-body {
-  padding: 0 0 1.9rem 0;
-}
-
-.card-header {
-  background-color: rgb(145, 246, 246);
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-
-.card-text {
-  font-size: .7rem;
-  font-weight: 200;
-  margin: .6rem 1.5rem 0 1.5rem;
-}
-
-.skillsSection {
-  padding: 0;
-  margin-bottom: 5rem;
-}
-
-.skillsFigure {
-  margin: 0;
-}
-
-.skillsImage {
-  max-width: 19%;
-  padding: 0;
-  margin: .3rem .4rem 0;
-}
-
-/****************************************************
-   About Section 
- ****************************************************/
-
-.aboutText {
-  font-size: .9rem;
-  font-weight: 200;
-  border-left: solid 2px rgb(145, 246, 246);
-}
-
-.resume {
-  color: rgb(108, 117, 125);
-  text-decoration: none;
-  line-height: 3.5;
-}
-
-.resume:hover,
-.arrow:hover {
-  color: rgb(145, 246, 246);
-  text-decoration: underline;
-}
-
-.horizontalLine {
-  border-left: solid 2px rgb(108, 117, 125);
-  transform: rotate(90deg);
-  padding-bottom: 15px;
-  margin-left: 1.5rem;
-  display:inline-block;
-}
-
-.arrow {
-  border: solid rgb(108, 117, 125);
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 6px;
-  transform: rotate(-45deg);
-}
-
-/****************************************************
-   Contact Section 
- ****************************************************/
-
-.contactInfo {
-  margin-bottom: 2rem;
-}
-
-.email,
-.phone {
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-}
-
-/****************************************************
-   Footer 
- ****************************************************/
-
-.footerLogo {
-  color: rgb(100, 246, 246);
-}
-
-/****************************************************
-   media queries 
- ****************************************************/
-
-@media (min-width: 321px) {
-  .navFlex {
-    justify-content: space-between!important;
-  }
-}
-
-@media (min-width: 576px) {
+  
   h1 {
-    font-size: 4.6rem;
-    padding: 3rem 0 4rem;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 2rem 0 2.5rem;
   }
-
-  h1 span {
-    font-size: 5rem;
-  }
-
+  
   h2 {
-    flex-wrap: nowrap!important;
-    font-size: 1.3rem!important;
+    flex-basis: 50%;
+    font-size: 1.2rem!important;
   }
-
-  small{
-    font-size: 1.1rem;
+  
+  h3 {
+    font-weight: 400!important;
   }
-
+  
+  small {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
   .sectionTab {
-    padding: 1rem;
-  }
-
-  .header {
-    padding-bottom: 6rem;
-  }
-
+      font-weight: 400;
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+      color: white;
+      border-radius: 0 10px 10px 0;
+      background-color: rgb(183, 183, 183);
+      margin: 0;
+      padding: 1rem .5rem;
+    }
+  
+  /****************************************************
+     Navigation Bar 
+   ****************************************************/
   #work {
-    margin-top: 7rem;
-    margin-bottom: 0;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 0;
   }
-
+  
+  #about {
+    margin: 3.5rem 0;
+  }
+  
+  #contact {
+    margin: 4rem 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: rgb(145, 246, 246);
+  }
+  
+  .nav-item:hover {
+    color: rgb(183, 183, 183);
+  }
+  
+  /****************************************************
+     Header Block 
+   ****************************************************/
+  
+  .header {
+    background-image: url('images/canyon-photo.jpg');
+    background-position: 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(253, 227, 111, 0.8);
+    text-align: center;
+    margin-top: 3rem;
+    padding: 3rem 1.5rem 3rem;
+  }
+  
   .headerP {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 300;
   }
-
+  
+  /****************************************************
+     Work & Skills Section 
+   ****************************************************/
+  
   .project {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
   }
-
+  
+  .card {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .card-body {
+    padding: 0 0 1.9rem 0;
+  }
+  
   .card-header {
-    font-size: 1.5rem
-  }
-
-  .card-text {
+    background-color: rgb(145, 246, 246);
+    font-weight: 300;
     font-size: 1.1rem;
   }
-
+  
+  .card-text {
+    font-size: .7rem;
+    font-weight: 200;
+    margin: .6rem 1.5rem 0 1.5rem;
+  }
+  
   .skillsSection {
-    margin-bottom: 8rem;
+    padding: 0;
+    margin-bottom: 5rem;
   }
-
-  .skillsImage{
-    max-width: 11%;  
+  
+  .skillsFigure {
+    margin: 0;
   }
-
-  #about {
-    margin: 6rem 0;
+  
+  .skillsImage {
+    max-width: 19%;
+    padding: 0;
+    margin: .3rem .4rem 0;
   }
-
+  
+  /****************************************************
+     About Section 
+   ****************************************************/
+  
   .aboutText {
-    font-size: 1.2rem;
+    font-size: .9rem;
+    font-weight: 200;
+    border-left: solid 2px rgb(145, 246, 246);
   }
-
-  #contact {
-    margin: 7rem 0;
+  
+  .resume {
+    color: rgb(108, 117, 125);
+    text-decoration: none;
+    line-height: 3.5;
   }
-
+  
+  .resume:hover,
+  .arrow:hover {
+    color: rgb(145, 246, 246);
+    text-decoration: underline;
+  }
+  
+  .horizontalLine {
+    border-left: solid 2px rgb(108, 117, 125);
+    transform: rotate(90deg);
+    padding-bottom: 15px;
+    margin-left: 1.5rem;
+    display:inline-block;
+  }
+  
+  .arrow {
+    border: solid rgb(108, 117, 125);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-45deg);
+  }
+  
+  /****************************************************
+     Contact Section 
+   ****************************************************/
+  
   .contactInfo {
-    margin-bottom: 2.8rem;
+    margin-bottom: 2rem;
   }
-
+  
   .email,
   .phone {
-  font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
   }
-
-  .linkedinIcon {
-    margin-top: 2rem;  
+  
+  /****************************************************
+     Footer 
+   ****************************************************/
+  
+  .footerLogo {
+    color: rgb(100, 246, 246);
   }
-}
+  
+  /****************************************************
+     media queries 
+   ****************************************************/
+  
+  @media (min-width: 321px) {
+    .navFlex {
+      justify-content: space-between!important;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 4.6rem;
+      padding: 3rem 0 4rem;
+    }
+  
+    h1 span {
+      font-size: 5rem;
+    }
+  
+    h2 {
+      flex-wrap: nowrap!important;
+      font-size: 1.3rem!important;
+    }
+  
+    small{
+      font-size: 1.1rem;
+    }
+  
+    .sectionTab {
+      padding: 1rem;
+    }
+  
+    .header {
+      padding-bottom: 6rem;
+    }
+  
+    #work {
+      margin-top: 7rem;
+      margin-bottom: 0;
+    }
+  
+    .headerP {
+      font-size: 1.5rem;
+    }
+  
+    .project {
+      margin-bottom: 6rem;
+    }
+  
+    .card-header {
+      font-size: 1.5rem
+    }
+  
+    .card-text {
+      font-size: 1.1rem;
+    }
+  
+    .skillsSection {
+      margin-bottom: 8rem;
+    }
+  
+    .skillsImage{
+      max-width: 11%;  
+    }
+  
+    #about {
+      margin: 6rem 0;
+    }
+  
+    .aboutText {
+      font-size: 1.2rem;
+    }
+  
+    #contact {
+      margin: 7rem 0;
+    }
+  
+    .contactInfo {
+      margin-bottom: 2.8rem;
+    }
+  
+    .email,
+    .phone {
+    font-size: 1.5rem;
+    }
+  
+    .linkedinIcon {
+      margin-top: 2rem;  
+    }
+  }
