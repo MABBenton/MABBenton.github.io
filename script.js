@@ -4,13 +4,13 @@
 const cards = document.getElementsByClassName('card');
 const cardBounce = [
   {transform: "translate(0, 0)"},
-  {transform: "translate(0, -2rem)"},
-  {transform: "translate(0, .9rem)"},
+  {transform: "translate(0, -1rem)"},
+  {transform: "translate(0, .4rem)"},
   {transform: "translate(0, 0)"}    
 ];
 
 const cardTiming = {
-  duration: 1100,
+  duration: 1000,
   iterations: 1
 };
 
