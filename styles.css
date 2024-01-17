@@ -1,4 +1,6 @@
-/* element selectors */
+/****************************************************
+   General 
+ ****************************************************/
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -23,8 +25,20 @@ small {
   font-size: 1rem;
 }
 
-/* id selectors */
+.sectionTab {
+    font-weight: 400;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(183, 183, 183);
+    margin: 0;
+    padding: 1rem .5rem;
+  }
 
+/****************************************************
+   Navigation Bar 
+ ****************************************************/
 #work {
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -40,7 +54,6 @@ small {
   padding: 0;
 }
 
-/* class selectors */
 .navbar {
   background-color: rgb(145, 246, 246);
 }
@@ -49,16 +62,9 @@ small {
   color: rgb(183, 183, 183);
 }
 
-.sectionHeader {
-  font-weight: 400;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  color: white;
-  border-radius: 0 10px 10px 0;
-  background-color: rgb(183, 183, 183);
-  margin: 0;
-  padding: 1rem .5rem;
-}
+/****************************************************
+   Header Block 
+ ****************************************************/
 
 .header {
   background-image: url('images/canyon-photo.jpg');
@@ -72,14 +78,14 @@ small {
   padding: 3rem 1.5rem 3rem;
 }
 
-.lead {
+.headerP {
   font-size: 1rem;
   font-weight: 300;
 }
 
-.card-text {
-  font-size: .7rem;
-}
+/****************************************************
+   Work & Skills Section 
+ ****************************************************/
 
 .project {
   margin-bottom: 3rem;
@@ -101,8 +107,9 @@ small {
 }
 
 .card-text {
-  margin: .6rem 1.5rem 0 1.5rem;
+  font-size: .7rem;
   font-weight: 200;
+  margin: .6rem 1.5rem 0 1.5rem;
 }
 
 .skillsSection {
@@ -119,6 +126,10 @@ small {
   padding: 0;
   margin: .3rem .4rem 0;
 }
+
+/****************************************************
+   About Section 
+ ****************************************************/
 
 .aboutText {
   font-size: .9rem;
@@ -138,6 +149,14 @@ small {
   text-decoration: underline;
 }
 
+.horizontalLine {
+  border-left: solid 2px rgb(108, 117, 125);
+  transform: rotate(90deg);
+  padding-bottom: 15px;
+  margin-left: 1.5rem;
+  display:inline-block;
+}
+
 .arrow {
   border: solid rgb(108, 117, 125);
   border-width: 0 2px 2px 0;
@@ -146,13 +165,9 @@ small {
   transform: rotate(-45deg);
 }
 
-.horizontalLine {
-  border-left: solid 2px rgb(108, 117, 125);
-  transform: rotate(90deg);
-  padding-bottom: 15px;
-  margin-left: 1.5rem;
-  display:inline-block;
-}
+/****************************************************
+   Contact Section 
+ ****************************************************/
 
 .contactInfo {
   margin-bottom: 2rem;
@@ -165,11 +180,17 @@ small {
   margin-bottom: 2rem;
 }
 
+/****************************************************
+   Footer 
+ ****************************************************/
+
 .footerLogo {
   color: rgb(100, 246, 246);
 }
 
-/* media queries */
+/****************************************************
+   media queries 
+ ****************************************************/
 
 @media (min-width: 321px) {
   .navFlex {
@@ -196,7 +217,7 @@ small {
     font-size: 1.1rem;
   }
 
-  .sectionHeader {
+  .sectionTab {
     padding: 1rem;
   }
 
@@ -209,7 +230,7 @@ small {
     margin-bottom: 0;
   }
 
-  .lead {
+  .headerP {
     font-size: 1.5rem;
   }
 
