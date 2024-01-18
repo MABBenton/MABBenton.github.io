@@ -1,26 +1,24 @@
 /****************************************************
    General 
  ****************************************************/
- body {
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
 h2,
 h3,
-h4,
-.nav-item,
-footer p {
-  color: rgb(73, 80, 87)!important;
+h4 {
+  color: #495057 !important;
 }
 
 h2 {
   flex-basis: 50%;
-  font-size: 1.2rem!important;
+  font-size: 1.2rem !important;
 }
 
 h3 {
-  font-weight: 400!important;
+  font-weight: 400 !important;
 }
 
 .sectionTab {
@@ -29,11 +27,11 @@ h3 {
   text-orientation: upright;
   color: white;
   border-radius: 0 10px 10px 0;
-  background-color: rgb(183, 183, 183);
+  background-color: #b7b7b7;
   margin: 0;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
 }
-  
+
 /****************************************************
     Navigation Bar 
 ****************************************************/
@@ -53,11 +51,15 @@ h3 {
 }
 
 .navbar {
-  background-color: rgb(145, 246, 246);
+  background-color: #91f6f6;
+}
+
+.nav-item {
+  color: #495057;
 }
 
 .nav-item:hover {
-  color: rgb(196, 200, 203);
+  color: #c4c8cb;
 }
 
 .navbar-brand {
@@ -65,21 +67,20 @@ h3 {
 }
 
 small {
-  color: rgb(108, 117, 125);
+  color: #6c757d;
   font-weight: 400;
   font-size: 1rem;
-  border-left: solid 1px rgb(196, 200, 203);
+  border-left: solid 1px #c4c8cb;
 }
 
 /****************************************************
     Header Block 
 ****************************************************/
-  
 .header {
-  background-image: url('images/canyon-photo.jpg');
+  background-image: url("../images/canyon-photo.jpg");
   background-position: 50% 70%;
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-blend-mode: lighten;
   background-color: rgba(253, 227, 111, 0.8);
   text-align: center;
@@ -95,7 +96,7 @@ small {
 }
 
 .headerP {
-  color: rgb(108, 117, 125);
+  color: #6c757d;
   margin-bottom: 1.5rem;
   font-size: 1rem;
   font-weight: 300;
@@ -104,10 +105,9 @@ small {
 /****************************************************
     Work & Skills Section 
 ****************************************************/
-  
 .project {
   margin-bottom: 3rem;
-  padding: 0; 
+  padding: 0;
 }
 
 .card {
@@ -120,17 +120,17 @@ small {
 }
 
 .card-header {
-  background-color: rgb(145, 246, 246);
+  background-color: #91f6f6;
   font-weight: 300;
   font-size: 1.1rem;
   padding: 1.5rem 1rem;
 }
 
 .card-text {
-  color: rgb(108, 117, 125);
-  font-size: .7rem;
+  color: #6c757d;
+  font-size: 0.7rem;
   font-weight: 200;
-  margin: .6rem 1.5rem 0 1.5rem;
+  margin: 0.6rem 1.5rem 0 1.5rem;
 }
 
 .skillsSection {
@@ -145,7 +145,7 @@ small {
 .skillsImage {
   max-width: 19%;
   padding: 0;
-  margin: .3rem .4rem 0;
+  margin: 0.3rem 0.4rem 0;
 }
 
 /****************************************************
@@ -164,36 +164,35 @@ small {
 }
 
 .aboutText {
-  color: rgb(108, 117, 125);
-  font-size: .9rem;
+  color: #6c757d;
+  font-size: 0.9rem;
   font-weight: 200;
-  border-left: solid 2px rgb(145, 246, 246);
-  padding: 0 .5rem;
+  border-left: solid 2px #91f6f6;
+  padding: 0 0.5rem;
   margin: 0;
 }
 
 .resume {
-  color: rgb(108, 117, 125);
+  color: #6c757d;
   text-decoration: none;
   line-height: 3.5;
 }
 
-.resume:hover,
-.arrow:hover {
-  color: rgb(145, 246, 246);
-  text-decoration: underline;
+.resume:hover {
+  color: #91f6f6;
+  text-decoration: none;
 }
 
-.horizontalLine {
-  border-left: solid 2px rgb(108, 117, 125);
+.arrowLine {
+  border-left: solid 2px #6c757d;
   transform: rotate(90deg);
   padding-bottom: 15px;
   margin-left: 1.5rem;
-  display:inline-block;
+  display: inline-block;
 }
 
 .arrow {
-  border: solid rgb(108, 117, 125);
+  border: solid #6c757d;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 6px;
@@ -203,132 +202,134 @@ small {
 /****************************************************
     Contact Section 
 ****************************************************/
-
 .contactInfo {
   margin-bottom: 2rem;
 }
 
 .email,
 .phone {
-  color: rgb(108, 117, 125);
+  color: #6c757d;
   font-size: 1.2rem;
   font-weight: 300;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
 
 /****************************************************
     Footer 
 ****************************************************/
-
 footer {
   padding: 1rem 0;
 }
 
+footer p {
+  color: #495057;
+}
+
 .logoMAB {
-  color: rgb(100, 246, 246);
+  color: #91f6f6;
 }
 
 /****************************************************
     media queries 
 ****************************************************/
-  
 @media (min-width: 321px) {
-.navFlex {
-  justify-content: space-between!important;
+  .navFlex {
+    justify-content: space-between !important;
+  }
 }
-}
-
 @media (min-width: 576px) {
-.headerH1 {
-  font-size: 4rem;
-  padding: 3rem 0 4rem;
-}
+  .headerH1 {
+    font-size: 4rem;
+    padding: 3rem 0 4rem;
+  }
 
-h1 span {
-  font-size: 5rem;
-}
+  h1 span {
+    font-size: 5rem;
+  }
 
-h2 {
-  flex-wrap: nowrap!important;
-  font-size: 1.3rem!important;
-}
+  h2 {
+    flex-wrap: nowrap !important;
+    font-size: 1.3rem !important;
+  }
 
-small{
-  font-size: 1.1rem;
-  margin-left: .5rem;
-  padding: 0 0 0 .5rem!important;
-}
+  small {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    padding: 0 0 0 0.5rem !important;
+  }
 
-.sectionTab {
-  padding: 1rem;
-}
+  .sectionTab {
+    padding: 1rem;
+  }
 
-.header {
-  padding-bottom: 6rem;
-}
+  .header {
+    padding-bottom: 6rem;
+  }
 
-#work {
-  margin-top: 7rem;
-  margin-bottom: 0;
-}
+  #work {
+    margin-top: 7rem;
+    margin-bottom: 0;
+  }
 
-.headerP {
-  font-size: 1.5rem;
-  margin: 0 3rem 1.5rem;
-}
+  .headerP {
+    font-size: 1.5rem;
+    margin: 0 3rem 1.5rem;
+  }
 
-.project {
-  margin-bottom: 6rem;
-}
+  .project {
+    margin-bottom: 6rem;
+  }
 
-.card-header {
-  font-size: 1.5rem
-}
+  .card-header {
+    font-size: 1.5rem;
+  }
 
-.card-text {
-  font-size: 1.1rem;
-}
+  .card-text {
+    font-size: 1.1rem;
+  }
 
-.skillsSection {
-  margin-bottom: 8rem;
-}
+  .skillsSection {
+    margin-bottom: 8rem;
+  }
 
-.skillsImage{
-  max-width: 11%;  
-}
+  .skillsImage {
+    max-width: 11%;
+  }
 
-#about {
-  margin: 6rem 0;
-}
+  #about {
+    margin: 6rem 0;
+  }
 
-.about div {
-  margin: 0 3rem;
-}
+  .about div {
+    margin: 0 3rem;
+  }
 
-.about h3 {
-  margin-bottom: 3rem;
-}
+  .about h3 {
+    margin-bottom: 3rem;
+  }
 
-.aboutText {
-  font-size: 1.2rem;
-  padding: 0 1.5rem;
-}
+  .aboutText {
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+  }
 
-#contact {
-  margin: 7rem 0;
-}
+  #contact {
+    margin: 7rem 0;
+  }
 
-.contactInfo {
-  margin-bottom: 2.8rem;
-}
+  .contactInfo {
+    margin-bottom: 2.8rem;
+  }
 
-.email,
+  .email,
 .phone {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .linkedinIcon {
+    margin-top: 2rem;
+  }
 }
 
-.linkedinIcon {
-  margin-top: 2rem;  
-}
-}
+/*# sourceMappingURL=styles.css.map */
