@@ -57,15 +57,15 @@ small {
     Header Block 
 ****************************************************/
 .header {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem 1.5rem 3rem;
   background-image: url("../images/canyon-photo.jpg");
   background-position: 50% 70%;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: lighten;
   background-color: rgba(253, 227, 111, 0.8);
-  text-align: center;
-  margin-top: 3rem;
-  padding: 3rem 1.5rem 3rem;
 }
 .header h1 {
   font-size: 2rem;
@@ -212,6 +212,27 @@ footer p {
 
 .logoMAB {
   color: #91f6f6;
+}
+
+/****************************************************
+    thordesign_project.html 
+****************************************************/
+.main {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem 1.5rem 3rem;
+}
+.main h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 2rem 0 2.5rem;
+  margin: 0;
+}
+.main p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 /****************************************************
