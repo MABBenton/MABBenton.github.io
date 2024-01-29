@@ -241,10 +241,9 @@ footer {
     margin: 0;
   }
   p {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1.4rem;
     padding: 0;
-    font-size: 1rem;
     font-weight: 300;
   }
   img {
@@ -255,6 +254,10 @@ footer {
 .printWork {
   padding: 0;
   width: 88%;
+}
+
+.printworkHeader {
+  font-size: 1.5rem;
 }
 
 .roseLogo {
@@ -359,7 +362,7 @@ footer {
     margin-top: 2rem;  
   }
 
-  .main {
+  .thorMain {
     h1{
       font-size: 3rem;
     }
