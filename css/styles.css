@@ -217,31 +217,34 @@ footer {
 .thorMain {
   text-align: center;
   margin-top: 3rem;
-  padding: 3rem 1rem 3rem;
+  padding: 3rem 0;
 }
 .thorMain h1 {
+  font-weight: 400;
   font-size: 2rem;
-  font-weight: 300;
-  padding: 2rem 0 2.5rem;
+  padding: 2rem 0 1rem;
   margin: 0;
 }
 .thorMain p {
-  margin-top: 2.7rem;
+  font-weight: 300;
+  margin-top: 4rem;
   margin-bottom: 1.4rem;
   padding: 0;
-  font-weight: 300;
 }
 .thorMain img {
   padding: 0;
 }
 
-.printWork {
-  padding: 0;
-  width: 88%;
+.printwork {
+  padding: 0 0.8rem;
 }
-
-.printworkHeader {
+.printworkLabel {
   font-size: 1.5rem;
+}
+.printworkText {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .roseLogo {
@@ -343,9 +346,12 @@ footer {
     font-size: 3rem;
   }
   .thorMain p {
-    font-size: 1.3rem;
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .printworkHeader {
+    font-size: 3rem;
   }
 }
 @media (min-width: 1024px) {
