@@ -125,6 +125,12 @@ small {
   margin: 0.6rem 1.5rem 0 1.5rem;
 }
 
+.roseLogoIcon {
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
 .skills {
   padding: 0;
   margin-bottom: 5rem;
