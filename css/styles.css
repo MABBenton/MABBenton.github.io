@@ -228,8 +228,12 @@ footer p {
   padding: 2rem 0 2.5rem;
   margin: 0;
 }
+.main img {
+  display: block;
+}
 .main p {
   color: #6c757d;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
   font-weight: 300;
@@ -327,6 +331,15 @@ footer p {
 
   .linkedinIcon {
     margin-top: 2rem;
+  }
+
+  .main h1 {
+    font-size: 3rem;
+  }
+  .main p {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 @media (min-width: 1024px) {
