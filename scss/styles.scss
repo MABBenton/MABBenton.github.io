@@ -237,7 +237,7 @@ footer {
   h1 {
     font-weight: 400;
     font-size: 2rem;
-    padding: 2rem 0 1rem;
+    padding: 2rem 0 0;
     margin: 0;
   }
   p {
@@ -365,18 +365,52 @@ footer {
     margin-top: 2rem;  
   }
 
+/****************************************************
+    thordesign_project.html page media queries
+****************************************************/
   .thorMain {
     h1{
       font-size: 3rem;
     }
     p {
-      margin-left: 2rem;
-      margin-right: 2rem;
+      margin-top: 7rem;
+      margin-bottom: 2rem;
     }
   }
 
-  .printworkHeader {
-    font-size: 3rem;
+  .roseLogo {
+    width: 35%;
+  }
+
+  .printwork {
+    padding: 0 2rem;
+    &Label {
+      font-size: 2rem;
+    }
+    &Text {
+      font-size: 1.2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
+  .img {
+    &-busiCard {
+      width: 70%;
+      margin: auto;
+    }
+    &-priceTag {
+      width: 55%;
+      margin: auto;
+    }
+    &-membership {
+      width: 90%;
+      margin: auto;
+    }
+    &-bevMenu {
+      width: 85%;
+      margin: auto;
+    }
   }
 }
 
@@ -384,5 +418,31 @@ footer {
 
   .skills-image {
     max-width: 12%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .thorMain {
+    max-width: 80%;
+    margin: auto;
+    p {
+      margin-top: 9rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .printwork {
+    &Label {
+      font-size: 3rem;
+    }
+    &Text {
+      font-size: 1.8rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
+  .roseLogo {
+    max-width: 30%;
   }
 }
