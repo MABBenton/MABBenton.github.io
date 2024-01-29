@@ -19,6 +19,7 @@ h2 {
 
 h3 {
   font-weight: 400 !important;
+  margin-bottom: 2rem;
 }
 
 .work,
@@ -147,9 +148,6 @@ small {
 .about div {
   padding-left: 1rem;
 }
-.about h3 {
-  margin-bottom: 1.5rem;
-}
 .aboutText {
   color: #6c757d;
   font-size: 0.9rem;
@@ -187,10 +185,6 @@ small {
 /****************************************************
     Contact Section 
 ****************************************************/
-.contactInfo {
-  margin-bottom: 2rem;
-}
-
 .email,
 .phone {
   color: #6c757d;
@@ -215,7 +209,7 @@ footer p {
 }
 
 /****************************************************
-    thordesign_project.html 
+    thordesign_project.html page
 ****************************************************/
 .main {
   text-align: center;
@@ -228,15 +222,16 @@ footer p {
   padding: 2rem 0 2.5rem;
   margin: 0;
 }
-.main img {
-  display: block;
-}
 .main p {
   color: #6c757d;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.roseLogo {
+  align-items: center;
 }
 
 /****************************************************
@@ -267,6 +262,10 @@ footer p {
   h2 {
     flex-wrap: nowrap !important;
     font-size: 1.3rem !important;
+  }
+
+  h3 {
+    margin-bottom: 3rem;
   }
 
   small {
@@ -312,16 +311,9 @@ footer p {
   .about div {
     margin: 0 3rem;
   }
-  .about h3 {
-    margin-bottom: 3rem;
-  }
   .aboutText {
     font-size: 1.2rem;
     padding: 0 1.5rem;
-  }
-
-  .contactInfo {
-    margin-bottom: 2.8rem;
   }
 
   .email,
