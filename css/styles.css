@@ -157,6 +157,7 @@ small {
   padding-left: 1rem;
 }
 .aboutText {
+  color: #6c757d;
   font-size: 0.9rem;
   font-weight: 200;
   border-left: solid 2px #91f6f6;
