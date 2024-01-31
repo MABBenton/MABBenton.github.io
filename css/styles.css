@@ -166,8 +166,10 @@ small {
 
 .resume {
   color: #6c757d;
+  font-size: 1.5rem;
   text-decoration: none;
   line-height: 3.5;
+  padding-left: 0.6rem;
 }
 .resume:hover {
   color: #91f6f6;
@@ -300,11 +302,6 @@ footer {
     margin-bottom: 0;
   }
 
-  .about,
-.contact {
-    margin: 7rem 0;
-  }
-
   .project {
     margin-bottom: 6rem;
   }
@@ -325,12 +322,26 @@ footer {
     max-width: 15%;
   }
 
-  .about div {
+  .about,
+.contact {
+    margin: 7rem 0;
+  }
+
+  .aboutContent {
     margin: 0 3rem;
   }
   .aboutText {
     font-size: 1.2rem;
     padding: 0 1.5rem;
+  }
+  .aboutPhoto {
+    width: 70%;
+    margin: 2rem auto 0;
+  }
+
+  .resume {
+    font-size: 1.8rem;
+    padding-left: 1.6rem;
   }
 
   .email,
@@ -385,13 +396,29 @@ footer {
     width: 85%;
     margin: auto;
   }
+
+  /******************************************/
 }
 @media (min-width: 1024px) {
   .skills-image {
     max-width: 12%;
   }
+
+  .aboutPhoto {
+    width: 55%;
+  }
 }
 @media (min-width: 1440px) {
+  .aboutText {
+    font-size: 1.5rem;
+  }
+  .aboutPhoto {
+    width: 50%;
+  }
+
+  /****************************************************
+      thordesign_project.html page media queries
+  ****************************************************/
   .thorMain {
     max-width: 80%;
     margin: auto;
@@ -413,6 +440,8 @@ footer {
   .roseLogo {
     max-width: 30%;
   }
+
+  /******************************************/
 }
 
 /*# sourceMappingURL=styles.css.map */
