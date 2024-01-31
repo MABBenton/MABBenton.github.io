@@ -1,10 +1,11 @@
+// VARIABLES -----------------------------------------/
 $white: rgb(255, 255, 255);
 
-$font-color-headers: rgb(73, 80, 87);
-$font-color-secondary: rgb(108, 117, 125);
+$font-color-headers: rgb(73, 80, 87);  //dark gray
+$font-color-secondary: rgb(108, 117, 125);  //light gray
 
-$background-color-primary: rgb(145, 246, 246);
-$color-light-accent: rgb(196, 200, 203);
+$background-color-primary: rgb(145, 246, 246); //teal
+$color-light-accent: rgb(196, 200, 203);  //light gray accent color
 
 /****************************************************
    General 
@@ -111,7 +112,7 @@ small {
 }
 
 /****************************************************
-    Work & Skills Section 
+    Work Section 
 ****************************************************/
     
 .project {
@@ -144,12 +145,13 @@ small {
   margin-bottom: .6rem;
 }
 
+/****************************************************
+    Skills Section 
+****************************************************/
+
 .skills {
   padding: 0;
   margin-bottom: 5rem;
-  & div {
-    padding: 0;
-  }
   &-figure {
     margin: 0;
   }
@@ -339,7 +341,11 @@ footer {
 
   .skills {
     margin-bottom: 7rem;
-    &-image{
+    &-figure {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    &-image {
       max-width: 15%;  
     }
   }

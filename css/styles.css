@@ -99,7 +99,7 @@ small {
 }
 
 /****************************************************
-    Work & Skills Section 
+    Work Section 
 ****************************************************/
 .project {
   margin-bottom: 3rem;
@@ -131,12 +131,12 @@ small {
   margin-bottom: 0.6rem;
 }
 
+/****************************************************
+    Skills Section 
+****************************************************/
 .skills {
   padding: 0;
   margin-bottom: 5rem;
-}
-.skills div {
-  padding: 0;
 }
 .skills-figure {
   margin: 0;
@@ -318,6 +318,10 @@ footer {
 
   .skills {
     margin-bottom: 7rem;
+  }
+  .skills-figure {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .skills-image {
     max-width: 15%;
