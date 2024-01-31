@@ -215,46 +215,6 @@ footer {
 }
 
 /****************************************************
-    thordesign_project.html page
-****************************************************/
-.thorMain {
-  text-align: center;
-  margin-top: 3rem;
-  padding: 3rem 0;
-}
-.thorMain h1 {
-  font-weight: 400;
-  font-size: 2rem;
-  padding: 2rem 0 0;
-  margin: 0;
-}
-.thorMain p {
-  font-weight: 300;
-  margin-top: 4rem;
-  margin-bottom: 1.4rem;
-  padding: 0;
-}
-.thorMain img {
-  padding: 0;
-}
-
-.printwork {
-  padding: 0 0.8rem;
-}
-.printworkLabel {
-  font-size: 1.5rem;
-}
-.printworkText {
-  font-size: 1rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.roseLogo {
-  align-items: center;
-}
-
-/****************************************************
     media queries 
 ****************************************************/
 @media (min-width: 321px) {
@@ -357,10 +317,65 @@ footer {
   .linkedinIcon {
     margin-top: 2rem;
   }
+}
+@media (min-width: 1024px) {
+  .skills-image {
+    max-width: 12%;
+  }
 
-  /****************************************************
-      thordesign_project.html page media queries
-  ****************************************************/
+  .aboutPhoto {
+    width: 55%;
+  }
+}
+@media (min-width: 1440px) {
+  .aboutText {
+    font-size: 1.5rem;
+  }
+  .aboutPhoto {
+    width: 50%;
+  }
+}
+.thorMain {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem 0;
+}
+.thorMain h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 2rem 0 0;
+  margin: 0;
+}
+.thorMain p {
+  font-weight: 300;
+  margin-top: 4rem;
+  margin-bottom: 1.4rem;
+  padding: 0;
+}
+.thorMain img {
+  padding: 0;
+}
+
+.printwork {
+  padding: 0 0.8rem;
+}
+.printworkLabel {
+  font-size: 1.5rem;
+}
+.printworkText {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.roseLogo {
+  align-items: center;
+}
+
+/****************************************************
+    media queries 
+****************************************************/
+@media (min-width: 576px) {
   .thorMain h1 {
     font-size: 3rem;
   }
@@ -401,29 +416,8 @@ footer {
     width: 85%;
     margin: auto;
   }
-
-  /******************************************/
-}
-@media (min-width: 1024px) {
-  .skills-image {
-    max-width: 12%;
-  }
-
-  .aboutPhoto {
-    width: 55%;
-  }
 }
 @media (min-width: 1440px) {
-  .aboutText {
-    font-size: 1.5rem;
-  }
-  .aboutPhoto {
-    width: 50%;
-  }
-
-  /****************************************************
-      thordesign_project.html page media queries
-  ****************************************************/
   .thorMain {
     max-width: 80%;
     margin: auto;
@@ -445,8 +439,6 @@ footer {
   .roseLogo {
     max-width: 30%;
   }
-
-  /******************************************/
 }
 
 /*# sourceMappingURL=styles.css.map */

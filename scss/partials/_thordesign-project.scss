@@ -1,0 +1,115 @@
+.thorMain {
+text-align: center;
+margin-top: 3rem;
+padding: 3rem 0;
+  h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 2rem 0 0;
+    margin: 0;
+  }
+  p {
+    font-weight: 300;
+    margin-top: 4rem;
+    margin-bottom: 1.4rem;
+    padding: 0;
+  }
+  img {
+    padding: 0;
+  }
+}
+  
+.printwork {
+padding: 0 .8rem;
+  &Label {
+    font-size: 1.5rem;
+  }
+  &Text {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.roseLogo {
+  align-items: center;
+}
+
+/****************************************************
+    media queries 
+****************************************************/
+
+@media (min-width: 576px) {
+  
+  .thorMain {
+    h1{
+      font-size: 3rem;
+    }
+    p {
+      margin-top: 7rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .roseLogo {
+    width: 35%;
+  }
+
+  .printwork {
+    padding: 0 2rem;
+    &Label {
+      font-size: 2rem;
+    }
+    &Text {
+      font-size: 1.2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
+  .img {
+    &-busiCard {
+      width: 70%;
+      margin: auto;
+    }
+    &-priceTag {
+      width: 55%;
+      margin: auto;
+    }
+    &-membership {
+      width: 90%;
+      margin: auto;
+    }
+    &-bevMenu {
+      width: 85%;
+      margin: auto;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .thorMain {
+    max-width: 80%;
+    margin: auto;
+    p {
+      margin-top: 9rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .printwork {
+    &Label {
+      font-size: 3rem;
+    }
+    &Text {
+      font-size: 1.8rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
+  .roseLogo {
+    max-width: 30%;
+  }
+}
