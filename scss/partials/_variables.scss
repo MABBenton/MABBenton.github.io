@@ -1,4 +1,8 @@
-// VARIABLES -----------------------------------------/
+// -------------------------------------------------------/
+//  VARIABLES
+// -------------------------------------------------------/
+
+//  colors
 $white: rgb(255, 255, 255);
 
 $font-color-headers: rgb(73, 80, 87);  //dark gray
@@ -6,3 +10,9 @@ $font-color-secondary: rgb(108, 117, 125);  //light gray
 
 $background-color-primary: rgb(145, 246, 246); //teal
 $color-light-accent: rgb(196, 200, 203);  //light gray accent color
+
+//  breakpoints
+$break-xs: 321px;
+$break-sm: 576px;
+$break-md: 1024px;
+$break-lg: 1440px;

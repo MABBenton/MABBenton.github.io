@@ -227,13 +227,13 @@ footer {
     media queries 
 ****************************************************/
 
-@media (min-width: 321px) {
+@media (min-width: $break-xs) {
   .navFlex {
     justify-content: space-between!important;
   }
 }
   
-@media (min-width: 576px) {
+@media (min-width: $break-sm) {
 
   .header {
     padding-bottom: 6rem;
@@ -254,7 +254,7 @@ footer {
   h2 {
     flex-wrap: nowrap!important;
     font-size: 1.3rem!important;
-}
+  }
 
   h3 {
     margin-bottom: 3rem;
@@ -335,7 +335,7 @@ footer {
   }
 }
   
-@media (min-width: 1024px) {
+@media (min-width: $break-md) {
 
   .skills-image {
     max-width: 12%;
@@ -346,7 +346,7 @@ footer {
   }
 }
   
-@media (min-width: 1440px) {
+@media (min-width: $break-lg) {
 
   .about {
     &Text {
