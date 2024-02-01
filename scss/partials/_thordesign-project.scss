@@ -39,7 +39,7 @@ padding: 0 .8rem;
     media queries 
 ****************************************************/
 
-@media (min-width: 576px) {
+@media (min-width: map-get($breakpoints, 'sm')) {
   
   .thorMain {
     h1{
@@ -87,7 +87,7 @@ padding: 0 .8rem;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: map-get($breakpoints, 'lg')) {
 
   .thorMain {
     max-width: 80%;
