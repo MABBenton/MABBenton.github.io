@@ -39,13 +39,13 @@ p {
 ****************************************************/
 
 .navbar {
-  background-color: $background-color-primary;
+  background-color: $color-primary;
 }
 
 .nav-item {
   color: $font-color-headers;
   &:hover {
-    color: $color-light-accent;
+    color: $font-color-secondary-light;
   }
 }
 
@@ -57,7 +57,7 @@ small {
   color: $font-color-secondary;
   font-weight: 400;
   font-size: 1rem;
-  border-left: solid 1px $color-light-accent;
+  border-left: solid 1px $font-color-secondary-light;
 }
     
 /****************************************************
@@ -118,7 +118,7 @@ small {
     padding: 0 0 1.9rem 0;
   }
   &-header {
-    background-color: $background-color-primary;
+    background-color: $color-primary;
     font-weight: 300;
     font-size: 1.1rem;
     padding: 1rem;
@@ -166,7 +166,7 @@ small {
     color: $font-color-secondary;
     font-size: .9rem;
     font-weight: 200;
-    border-left: solid 2px $background-color-primary;
+    border-left: solid 2px $color-primary;
     padding: 0 .5rem;
     margin: 0;
   }
@@ -179,7 +179,7 @@ small {
   line-height: 3.5;
   padding-left: .6rem;
   &:hover {
-    color: $background-color-primary;
+    color: $color-primary;
     text-decoration: none;
   }
 }
@@ -220,20 +220,20 @@ footer {
 }
 
 .logoMAB {
-  color: $background-color-primary;
+  color: $color-primary;
 }
   
 /****************************************************
     media queries 
 ****************************************************/
 
-@media (min-width: $break-xs) {
+@media (min-width: map-get($breakpoints, 'xs')) {
   .navFlex {
     justify-content: space-between!important;
   }
 }
   
-@media (min-width: $break-sm) {
+@media (min-width: map-get($breakpoints, 'sm')) {
 
   .header {
     padding-bottom: 6rem;
@@ -335,7 +335,7 @@ footer {
   }
 }
   
-@media (min-width: $break-md) {
+@media (min-width: map-get($breakpoints, 'md')) {
 
   .skills-image {
     max-width: 12%;
@@ -346,7 +346,7 @@ footer {
   }
 }
   
-@media (min-width: $break-lg) {
+@media (min-width: map-get($breakpoints, 'lg')) {
 
   .about {
     &Text {

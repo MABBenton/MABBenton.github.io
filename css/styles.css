@@ -44,7 +44,7 @@ p {
   color: #495057;
 }
 .nav-item:hover {
-  color: #c4c8cb;
+  color: #afb5ba;
 }
 
 .navbar-brand {
@@ -55,7 +55,7 @@ small {
   color: #6c757d;
   font-weight: 400;
   font-size: 1rem;
-  border-left: solid 1px #c4c8cb;
+  border-left: solid 1px #afb5ba;
 }
 
 /****************************************************
